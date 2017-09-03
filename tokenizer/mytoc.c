@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stdio.io> /*debugging purposes*/
+#include <stdio.h>
 #include "mytoc.h"
 
 /* Counts the number of tokens. */
