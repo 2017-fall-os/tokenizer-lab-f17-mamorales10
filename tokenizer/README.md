@@ -1,5 +1,4 @@
-Write your tokeniser in this directory.
-#Tokenizer Lab
+# Tokenizer Lab
 
 The purpose of this lab is to write a tokenizer function mytoc() which should
 return a freshly allocted null-terminated array of pointers to freshly allocated
