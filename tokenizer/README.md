@@ -24,7 +24,7 @@ $ make clean
 All of the test cases that were given by the description of this assignment were
 tested. Each test case was successful.
 
-## Help I recieved:
+## Help I Recieved:
 For my isExit() function, I received help from the strcmp() function example in
 page 106 of the K&R textbook, but I modified it so that it only compares to check
 if "exit" is the input.
