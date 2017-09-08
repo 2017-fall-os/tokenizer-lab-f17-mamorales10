@@ -23,3 +23,12 @@ $ make clean
 Test Cases:
 All of the test cases that were given by the description of this assignment were
 tested. Each test case was successful.
+
+Help I recieved:
+For my isExit() function, I received help from the strcmp() function example in
+page 106 of the K&R textbook, but I modified it so that it only compares to check
+if "exit" is the input.
+For my getString() function, I used most of the code from the gets_n() function
+that I put in my Arch1 binary search tree lab from Fall 2016.
+For the write() system call, I received help and I used the same if-statement
+format from the following URL: codewiki.wikidot.com/c:system-calls:write

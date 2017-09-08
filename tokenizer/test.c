@@ -47,17 +47,21 @@ int main(){
   char buff[200];
   char **vect;
 
-  char *test;
-  //test = "Hello my dog's name is Darwin.";
-  test = "   Hello   World!   ";
-  //test = "";
-  //test = " ";
-  //test = " HelloWorld";
+  char *testArray[5];
+  testArray[0] = "Hello my dog's name is Darwin.";
+  testArray[1] = "   Hello   World!   ";
+  testArray[2] = "";
+  testArray[3] = " ";
+  testArray[4] = " HelloWorld";
   
-  vect = mytoc((char *)test, ' ');
-  printTokens(vect);
-  free(vect);
-  
+  /* The following for loop goes through the test cases. */
+  char i;
+  for(i = 0; i < 5; i++){
+    vect = mytoc((char *)testArray[i], ' ');
+    printTokens(vect);
+    free(vect);
+  }
+  /*This is the end of the test cases.*/
   
   if(write(1, "$ ", 2) != 2){
     write(2, "There was an error.\n", 20);
